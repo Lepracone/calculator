@@ -1,3 +1,7 @@
+//Variables
+let displayValue;
+let instantValue;
+let operator;
 
 //Basic functions
 function add(a,b){
