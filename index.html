@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
 
         <title>Calculator</title>
     </head>
@@ -10,42 +11,44 @@
     <body>
 
         <div class="container">
-            <div id="display">
-                <div>123456789</div>
-                <div>454654654</div>
-            </div>
-            <div id="buttons">
-                <div id="row1">
-                    <button class="buttons">(</button>
-                    <button class="buttons">)</button>
-                    <button class="buttons"><-</button>
-                    <button class="buttons">/</button>
+            <input type="text" class="display" value="0" disabled/>
+            <div class="keys">
+                <div id="topSection">
+                    <div class="spaceRow" id="row1">
+                        <button class = "operator" value="+">+</button>
+                        <button class = "operator" value="-">-</button>
+                        <button class = "operator" value="*">&times</button>
+                        <button class = "operator" value="/">&divide</button>
+                    </div>
+                    <div  class="spaceRow" id="row2">
+                        <button value="7">7</button>
+                        <button value="8">8</button>
+                        <button value="9">9</button>
+                        <button class="clear red">&#8592</button>
+                    </div>
                 </div>
-                <div id="row2">
-                    <button class="buttons">7</button>
-                    <button class="buttons">8</button>
-                    <button class="buttons">9</button>
-                    <button class="buttons">X</button>
+                <div id="lowSection">
+                    <div>
+                        <div id="row3">
+                            <button value="4">4</button>
+                            <button value="5">5</button>
+                            <button value="6">6</button>
+                        </div>
+                        <div id="row4">
+                            <button value="1">1</button>
+                            <button value="2">2</button>
+                            <button value="3">3</button>
+                        </div>
+                        <div id="row5">
+                            <button class = "clearAll red">AC</button>
+                            <button value="0">0</button>
+                            <button class = "decimal" value=".">.</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="green" class = "operator" value="=">=</button>
+                    </div>
                 </div>
-                <div id="row3">
-                    <button class="buttons">4</button>
-                    <button class="buttons">5</button>
-                    <button class="buttons">6</button>
-                    <button class="buttons">-</button>
-                </div>
-                <div id="row4">
-                    <button class="buttons">1</button>
-                    <button class="buttons">2</button>
-                    <button class="buttons">3</button>
-                    <button class="buttons">+</button>
-                </div>
-                <div id="row5">
-                    <button class="buttons">C</button>
-                    <button class="buttons">0</button>
-                    <button class="buttons">.</button>
-                    <button class="buttons">=</button>
-                </div>
-                
                 
 
 
