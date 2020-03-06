@@ -4,7 +4,8 @@
     width: 420px;
     padding-bottom: 10px;
     border-radius: 10px;
-    background: #AFE4F1;;
+    background: #AFE4F1;
+    margin : 50px auto;
     
   
 }
@@ -27,8 +28,6 @@ button{
 #lowSection{
     display: flex;
     justify-content: space-evenly;
-}
-#topSection{
 }
 
 .spaceRow{
